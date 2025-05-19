@@ -43,10 +43,10 @@ async function up(knex) {
   } else {
     console.warn(
       "MIGRATION WARN:" +
-      "Skipped adding user_id to visits due to high volume of visits and the potential risk of locking the database.\n" + 
-      "Please refer to Kutt's migration guide for more information."
+      "Skipped adding user_id to visits due to high volume of visits and the potential risk of locking the database.\n" +
+      "Please refer to the migration guide for more information."
     );
-  } 
+  }
 };
 
 /**
