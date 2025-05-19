@@ -1,7 +1,7 @@
 name: docker-build-development
 
 env:
-  dockerhub_repository: "kutt/kutt"
+  dockerhub_repository: "lysa/lysa"
   dockerhub_tag: "development"
 
 on:
